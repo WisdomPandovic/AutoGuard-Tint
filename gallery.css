@@ -76,7 +76,7 @@
     background-color: black;
 }
 
-.grid-item {
+.grid-items {
     display: flex;
     width: 80%;
     margin: auto;
@@ -194,4 +194,14 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .grid-items {
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+
 }
