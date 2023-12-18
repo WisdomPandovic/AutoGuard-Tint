@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background: url('./images/red-car');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    color: white;
+    text-align: left;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-text {
+    max-width: 300px;
+   padding-top: 100px;
+   padding-left: 60px;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.hero-text p {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.feature-section {
+    background: url('./images/blacko-car.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.feature-content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-top: 100px;
+   padding-right: 100px;
+}
+
+.feature-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.feature-text h2 {
+    font-size: 30px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.feature-text p {
+    font-size: 13px;
+    line-height: 1.5;
+    max-width: 400px;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.read-more-bttn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 40px 140px;
+}
+
+.read-more-bttn:hover {
+    background-color: darkred;
+}
+
+.read-more-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 40px 0px;
+}
+
+.read-more-btn:hover {
+    background-color: darkred;
+}
+
+.another-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/windscreen.jpg');
+    color: white;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.another-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.another-text {
+    max-width: 600px;
+}
+
+.another-text h2 {
+    font-size: 30px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    background-color: rgba(255, 0, 0, 0.5);
+    display: inline-block; 
+    border-radius: 10px;
+    margin: 90px 0px 30px;
+    text-transform: uppercase;
+}
+
+.another-text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.discover-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.discover-btn:hover {
+    background-color: darkred;
+}
+
+.left-text-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/tint-window.webp') ; 
+    color: white;
+    text-align: left;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.left-text-content {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 80px;
+    max-width: 400px;
+}
+
+.left-text {
+    max-width: 600px;
+}
+
+.left-text h3 {
+    font-size: 20px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.left-text h2 {
+    font-size: 30px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.left-text p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.two-column-section {
+    background-color: black;
+    padding: 50px 20px 20px;
+}
+
+.two-column-section-2 {
+    background-color: black;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; 
+    gap: 20px;
+}
+
+.grid-container-2 {
+    display: grid;
+    grid-template-columns:2fr 1fr; 
+    gap: 20px;
+}
+
+.left-column {
+    background: url('./images/grid\ image.jpg') center/cover no-repeat;
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-column-2 {
+    background: url('./images/cars.jpg') center/cover no-repeat; 
+    text-align: left;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-content {
+    max-width: 400px;
+    background-color: rgba(165, 42, 42, 0.7); 
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.left-content h2 {
+    font-size: 44px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.right-column img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 1fr; 
+    }
+
+    .left-text-content {
+        padding: 80px 20px;
+    } 
+}
+
+@media (max-width: 400px) {
+    .left-text h2 {
+        font-size: 20px;
+    }
+
+    .feature-text h2 {
+        font-size: 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 20px;
+    }  
+}

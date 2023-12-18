@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOK NOW</title>
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<style>
+    @media (max-width: 500px) {
+        .book h2 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+    }
+</style>
+<body>
+
+    <nav>
+        <h2>AutoGuard Tint</h2>
+        <ul>
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="services.html" class="nav-link ">Services</a></li>
+            <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+            <li><a href="about.html" class="nav-link">About Us</a></li>
+            <li><a href="booking.html" class="nav-link">Book Now</a></li>
+            <li>  <i class="fas fa-search"></i></li>
+        </ul>
+    </nav>
+
+    <div class="hamburger_container flex">
+        <div><p>AutoGuard Tint</p></div>
+        <label for="menu_check">&#9776;</label>
+        <input type="checkbox" id="menu_check">
+        <div class="hide_nav_container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html" class="nav-link ">Services</a></li>
+                    <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                    <li><a href="booking.html" class="nav-link">Book Now</a></li>
+                    <li><a href="about.html" class="nav-link">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="full-width-section">
+        <div class="centered-content">
+            <img src="./images/lamborghini.jpg" alt="Centered Image">
+            <div class="centered-text book">
+                <h2>book now</h2>
+            </div>
+        </div>
+    </section>
+
+<section class="form-sect">
+    <div  class="form-section">
+        <form action="#" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Name">
+        </div>
+        <div class="form-grid">
+            <div class="form-group">
+                <label for="email">Phone:</label>
+                <input type="phone" id="phone" name="phone" required placeholder="Phone">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="email">Date:</label>
+                <input type="date" id="email" name="email" required placeholder="Date">
+            </div>
+            <div class="form-group">
+                <label for="email">Select:</label>
+                <input type="email" id="email" name="email" required placeholder="Select Service">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Book Now</button>
+        </div>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <section class="footer-grid">
+        <div>
+            <h2 class="footer-logo">AutoGuard Tint</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et sed nulla labore aliquam consequuntur cupiditate soluta sunt exercitationem fugiat natus illum, magnam error vitae laudantium iure sequi dolorem eius. Sunt!</p>
+        </div>
+        <div>
+            <h2>Contact Us</h2>
+            <p><i class="fas fa-phone"></i>About Us</p>
+            <p><i class="fas fa-envelope"></i> Privacy</p>
+            <p><i class="fas fa-globe"></i>Shipping Regur</p>
+            <p><i class="fas fa-map-marker-alt"></i>Caltoiree Suppor</p>
+        </div>
+        <div>
+            <h2>Follow Us</h2>
+            <p><i class="fab fa-facebook"></i> Facebook</p>
+            <p><i class="fab fa-instagram"></i>Instagram</p>
+            <p><i class="fab fa-youtube"></i>Youtube</p>
+            <p><i class="fab fa-twitter"></i>Twitter</p>
+        </div>
+    </section>
+    
+</footer>
+
+<div class="copyright ">
+    <h2>Copyright 2023 _ AutoGuard Tint| All Right Reserved</h2>
+    <p>Developed & Maintained by Panda</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
